@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0 0.4rem;
+    }
+    .nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+        display: flex;
+    }
+    .banner-info{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .banner-type{
+        margin-bottom: 3.2rem;
+    }
+    .card{
+        width: 12.2rem;
+        height: 3.1rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+    }
+    .card-1{
+        position: absolute;
+        top: 50rem;
+        right: 1rem;
+        padding-bottom: 2rem;
+    }
+}
