@@ -35,4 +35,10 @@
         right: 1rem;
         padding-bottom: 2rem;
     }
+    .round-card-container{
+        flex-direction: column;
+    }
+    .round-cards{
+        margin-bottom: 2.25rem;
+    }
 }

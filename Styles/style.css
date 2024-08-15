@@ -129,3 +129,48 @@ nav{
     font-size: 1.5rem;
     font-weight: 900;
 }
+#sec-para-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#sec-para-des{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3.7rem;
+}
+.round-card-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+}
+.round-pic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+.round-pic img{
+    border-radius: 50%;
+    
+}
+.round-card-title{
+    font-size: 18;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.round-card-des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.round-card-des p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
