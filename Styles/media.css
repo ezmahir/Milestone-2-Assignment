@@ -78,4 +78,8 @@
         margin: 0 auto;
         margin-right: 2rem;
     }
+    .footer{
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
