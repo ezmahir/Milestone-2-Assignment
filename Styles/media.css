@@ -41,4 +41,41 @@
     .round-cards{
         margin-bottom: 2.25rem;
     }
+    .extra-section{
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+    .extra-section-pic{
+        margin: 2rem;
+    }
+    .extra-section-pic img{
+        border-radius: 1.5rem;
+        border: none;
+        width: 20rem;
+        height: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #bmi-title{
+        margin: 2rem auto;
+    }
+    #bmi-para{
+        margin: 0 auto;
+    }
+    .clg-section{
+        flex-direction: column;
+    }
+    .chart-title{
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+    }
+    .chart-section{
+        margin-bottom: 5rem;
+    }
+    .calculate-form{
+        margin: 0 auto;
+        margin-right: 2rem;
+    }
 }

@@ -169,8 +169,121 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-.round-card-des p{
+.round-card-des p,
+#bmi-para{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 0.9rem;
+}
+.extra-section{
+    padding: 1.9rem 1.9rem 1.9rem 3.3rem;
+    background-color: rgba(177, 179, 182, 0.359);
+    margin: 0 11.9rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.extra-section-title{
+    margin-bottom: 1rem;
+}
+.extra-section-title p{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.extra-section-pic img{
+    border-radius: 1.5rem;
+    border: none;
+    width: 22.8rem;
+    height: 19.5rem;
+}
+.extra-section-para p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+#extra-btn{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.bmi-claculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5.5rem;
+}
+#bmi-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.clg-section{
+    margin-bottom: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.307);
+}
+.calculate-para{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.chart{
+    display: grid;
+    height: 270px;
+    width: 250px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3.3rem;
+}
+.box{
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.heavy{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.calculate-form > form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.75rem;
+}
+#form{
+    border-radius: 0.5rem;
+    height: 3rem;
+    padding-left: 1.5rem;
+    background-color: rgba(128, 128, 128, 0.296);
+}
+#form2{
+    width: 100%;
+    padding-left: 1.5rem;
+    height: 3.1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    background-color: rgba(128, 128, 128, 0.296);
+}
+.chart-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+#calculate-btn{
+    background-color: #E6533C;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 2.7rem;
+    border: 1px solid white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
 }
