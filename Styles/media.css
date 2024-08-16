@@ -82,4 +82,16 @@
         flex-direction: column;
         gap: 3rem;
     }
+    .row-1{
+        flex-direction: column;
+    }
+    #form{
+        border-radius: 0.5rem;
+        height: 3rem;
+        padding-left: 0.5rem;
+        background-color: rgba(128, 128, 128, 0.296);
+    }
+    #form2{
+        margin-left: 1rem;
+    }
 }
